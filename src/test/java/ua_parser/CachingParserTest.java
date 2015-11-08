@@ -29,7 +29,7 @@ public class CachingParserTest extends ParserTest {
   }
 
   @Test
-  public void testCachedParseUserAgent() {
+  public void testCachedParseUserAgent() throws Exception{
     super.testParseUserAgent();
     super.testParseUserAgent();
     super.testParseUserAgent();
